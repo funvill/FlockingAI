@@ -1,0 +1,3 @@
+bird::1.5
+# portrait::1.5
+full body::1.2

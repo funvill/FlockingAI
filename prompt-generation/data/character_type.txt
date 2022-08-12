@@ -1,0 +1,47 @@
+Alien
+Angel
+Barbarian
+Clown
+Demon
+Devil
+Doll
+Fairy
+Goblin
+Jester
+King
+Knight
+Monster
+Queen
+Robot
+Toy
+Troll
+Wizard
+Nanny 
+
+# Action Figure
+# Centaur
+# Cheerleader
+# Cherub
+# Cowboy
+# Cyborg
+# Drag Queen
+# Ghost
+# Goddess
+# Gnome
+# Gremlin
+# Joker
+# Leprechaun
+# Mecha
+# Mermaid
+# Mummy
+# Ninja
+# Orc
+# Pirate
+# Saint
+# Skeleton
+# Soldier
+# Spirit
+# Superhero
+# Vampire
+# Witch
+# Zombie

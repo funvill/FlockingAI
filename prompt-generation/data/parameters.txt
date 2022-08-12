@@ -1,0 +1,2 @@
+--uplight
+--quality 0.25

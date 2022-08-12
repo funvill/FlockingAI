@@ -1,0 +1,16 @@
+Red
+Red-Orange
+Orange
+Yellow-Orange
+Yellow
+Yellow-Green
+Green
+Blue-Green
+Blue
+Blue-Violet
+Violet
+Red-Violet
+Carnation Pink
+Brown
+Black
+White
