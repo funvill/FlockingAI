@@ -1,6 +1,357 @@
-Tim Burton
-Banksy (Street Art)
-Salvador Dali
-Norman Rockwell
-art by Takashi Murakami
-Van Gogh
+# Andy Warhol
+# Claude Monet
+# Dean Russo
+# H.R. Giger
+# Hayao Myazaki
+# Jean-Michel Basquiat
+# Jackson Pollock
+# Jeff Koons
+# Leonardo da Vinci
+# Pablo Picasso
+# Vincent van Gogh
+# Weta Digital
+# Wētā FX
+
+# Andy Goldsworthy
+# Andy Maitland (iPad Artist)
+# Anish Kapoor
+# Annibale Carracci
+# Ansel Adams
+# Anselm Kiefer
+# Anthony Caro
+# Anthony Gormley
+# Anthony Van Dyck
+# Antoni Gaudi
+# Antoni Tapies
+# Antony Gormley
+# Arnulf Rainer
+# Arshile Gorky
+# Artstation
+# Asaf Hanuka
+# Aubrey Beardsley
+# August Sander
+# Auguste Rodin
+# Augustus John
+# Bruce Nauman
+# Claes Oldenburg
+# Clarice Cliff
+# Clyfford Still
+# Constantin Brancusi
+# Cy Twombly
+# Damien Hirst
+# Dan Flavin
+# David Bomberg
+# David Hockney
+# David Mann
+# David Salle
+# David Smith
+# Diane Arbus
+# Diego Rivera
+# Dinos and Jake Chapman
+# Dmitri Cherniak
+# Donald Judd
+# Dorothea Tanning
+# Duane Hanson
+# Ed and Nancy Kienholz
+# Ed Ruscha
+# Edouard Manet
+# Edouard Vuillard
+# Eduardo Paolozzi
+# Edvard Munch
+# Edward Hopper
+# Edward Munch
+# Edward Weston
+# Egon Schiele
+# Ellsworth Kelly
+# Emil Nolde
+# Emma Dibben
+# Eric Joyner
+# Ernst Ludwig Kirchner
+# Eugene Atget
+# Eva Hesse
+# Faith Ringgold
+# Felix Gonzalez-Torres
+# Fernand Leger
+# Fernando Botero
+# Fischli & Weiss
+# Francis Bacon
+# Francis Picabia
+# Frank Auerbach
+# Frank Frazetta
+# Frank Stella
+# Franz Kline
+# Frida Kahlo
+# Friedensreich Hundertwasser
+# Georg Baselitz
+# George Grosz
+# George Segal
+# Georges Braque
+# Georges Rouault
+# Georges Seurat
+# Georgia O'Keeffe
+# Gerhard Richter
+# Giacomo Balla
+# Gilbert & George
+# Giorgio De Chirico
+# Giorgio Morandi
+# Giuseppe Arcimboldo
+# Grayson Perry
+# Gustav Klimt
+# Hans Bellmer
+# Hans Hofmann
+# Hassan Mossoudy
+# Hazem Taha Hussein
+# Helen Frankenthaler
+# Henri Cartier-Bresson
+# Henri Gaudier-Brzeska
+# Henri Matisse
+# Henri Rousseau
+# Henry Moore
+# Hermann Nitsch
+# Hieronymus Bosch
+# Hiroshi Sugimoto
+# Howard Hodgkin
+# Isa Genzken
+# Isamu Noguchi
+# Ismail Inceoglu
+# Ivan Shishkin
+# J. M. W. Turner
+# Jacques-Henri Lartigue
+# James Ensor
+# James Rosenquist
+# James Turrell
+# Jannis Kounellis
+# Jasper Johns
+# Jean Arp
+# Jean Dubuffet
+# Jean Tinguely
+# Jeff Wall
+# Jenny Saville
+# Joan Miro
+# Joël Penkman
+# John Chamberlain
+# John Constable
+# John Currin
+# John Kenn Mortensen
+# Jon Burgerman
+# Jorg Immendorff
+# Jose Tapiro Y Baro
+# Josef Albers
+# Joseph Beuys
+# Joseph Cornell
+# Juan Gris
+# Julian Opie
+# Julian Schnabel
+# Karel Appel
+# Karol Bak
+# Kasimir Malevich
+# Kate Malone
+# Katsushika Hokusai
+# KAWS
+# Kees Van Dongen
+# Keith Haring
+# Kiki Smith
+# Kim Tschang Yeul
+# Ko Young Hoon
+# Kurt Schwitters
+# L.S. Lowry
+# Laszlo Moholy-Nagy
+# Laurie Lipton
+# Lee Man Fong
+# Lemma Guya
+# Lisa Congdon
+# Lisa Frank
+# Louise Bourgeois
+# Luc Tuymans
+# Lucian Freud
+# Lucio Fontana
+# Lyonel Feininger
+# Mahmoud Sai
+# Malika Agueznay
+# Man Ray
+# Marc Chagall
+# Marcel Duchamp
+# Maria Sibylla Merian
+# Mark brooks
+# Mark Hearld
+# Mark Powell
+# Mark Rothko
+# Mark Wallinger
+# Marlene Dumas
+# Marsden Hartley
+# Martin Kippenberger
+# Matthew Barney
+# Maurizio Cattelan
+# Max Beckmann
+# Max Ernst
+# Michael Craig-Martin
+# Michael William Kaluta
+# Mr Doodle
+# Nam June Paik
+# Nan Goldin
+# Natalie Foss
+# Naum Gabo
+# Nicolas De Stael
+# Odilon Redon
+# Orla Kiely
+# Otto Dix
+# Pak
+# Paolo Uccello
+# Paul Cezanne
+# Paul Gauguin
+# Paul Klee
+# Paul Klee# 
+# Paul Signac
+# Paula Rego
+# Pauline Haynes
+# Pebble Tay
+# Peter Doig
+# Philip Guston
+# Piero Manzoni
+# Pierre Auguste Renoir
+# Pierre Bonnard
+# Piet Mondrian
+# Pieter Bruegel
+# Pieter Bruegel The Elder
+# Pre-Raphaelite Brotherhood
+# Raffaello Sanzio
+# Ralph Steadman
+# Raymond Duchamp-Villon
+# Remedios Varo Uranga
+# Rene Magritte
+# Richard dadd
+# Richard Diebenkorn
+# Richard Hamilton
+# Richard Prince
+# Richard Serra
+# Robert Delaunay
+# Robert Frank
+# Robert Gober
+# Robert Mangold
+# Robert Morris
+# Robert Motherwell
+# Robert Rauschenberg
+# Robert Ryman
+# Robert Smithson
+# Romero Britto
+# Rosalind Monks
+# Roy Lichtenstein
+# Roy Liechtestein
+# Salvador Dali
+# Salvador Dalí
+# Sarah Lucas
+# Sean Scully
+# Shepard Fairey
+# Sigmar Polke
+# Sol LeWitt
+# Sonia Boyce
+# Sonia Delaunay
+# Stanley Spencer
+# Stephen Wiltshire
+# Stuart Davis
+# Takashi Murakami
+# Takashi Murakami 
+# Ted Harrison
+# Thomas Hart Benton
+# Tivadar Csontváry Kosztka
+# Tony Diterlizzi
+# Tracey Emin
+# Tyler Hobbs
+# Umberto Boccioni
+# Victto Ngai
+# Vince Low
+# Vladimir Tatlin
+# Walker Evans
+# Walter De Maria
+# Wanda Gág
+# Wangechi Mutu
+# Wassily Kandinsky
+# Weegee
+# Willem De Kooning
+# WLOP
+# Yaoy Kusama
+# Yayoi Kusama
+# Yoshitaka Amano
+# Yoshitomo Nara
+# Yves Klein
+# Zeng Fanzhi
+
+
+# Short list 
+###### 
+
+Amiria Gale
+# Brice Marden
+# Chuck Close
+
+# Andreas Gursky
+# Bridget Riley
+# Cindy Sherman
+
+###################################
+# Done 
+###################################
+
+
+# Amazing (5*)
+###### 
+# Albert Bierstadt
+# Frida Kahlo
+# Takashi Murakami
+# Caravaggio Michelangelo Merisi
+# Carl Warner
+# Beeple
+# Bisa Butler
+
+# Great (4*)
+###### 
+# Tim Burton
+# Norman Rockwell
+# M. C. Escher
+# Jeff Koons
+# Ad Reinhardt
+# Carl Andre
+# Alberto Giacometti
+# Caspar David Friedrich
+# Charlie Bowater
+
+# Good (3*)
+###### 
+# Alexander Archipenko
+# Alexander Calder
+# Alfred Stieglitz
+# Bob Byerley
+# Alma Thomas
+# Christo And Jeanne Claude
+
+# Meh (1*)
+###### 
+# Agnes Lawrence Pelton
+# Jackson Pollock
+# Anish Kapoor
+# Banksy (Street Art)
+# Salvador Dali
+# Vincent van Gogh
+# Agnes Lawrence Pelton
+# Akihito Yoshida
+# Balthus
+# Camille Corot
+# Barbara Hepworth
+# Agnes Martin
+# Barnett Newman
+# Alberto Burri
+# Beatriz Milhazes
+# Alex Katz
+# Ben Enwonwu
+# Chaim Soutine
+# Ben Nicholson
+# Charles Demuth
+# Alexander Rodchenko
+# Bernd And Hilla Becher
+# Charles Rennie Mackintosh
+# Bill Brandt
+# Alighiero E Boetti
+# Chris Burden
+# Chris Ofili
+# Amedeo Modigliani
+# Brassai

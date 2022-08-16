@@ -1,44 +1,11 @@
 // Load the EveryBirdSpecies.json file as JSON
 // randomly select 3 words from the list by priority
-const fs = require("fs");
-const path = require("path");
+
+const { LoadTextFile, GetWordsFromList } = require("./helpers.js");
 
 // Consts
 const RUN_COUNT = 7;
 
-// Each line contains a word
-function LoadTextFile(fileName) {
-  return fs.readFileSync(path.join(__dirname, "data", fileName), "utf8").split("\n");
-}
-
-function GetWordsFromList(list, count, divider) {
-  let words = [];
-
-  if (divider == undefined) {
-    divider = ", ";
-  }
-  // If the count is not defined then use all words
-  if (count == undefined) {
-    count = list.length;
-    for (let i = 0; i < count; i++) {
-      word = list[i];
-      if (word.length > 0 && word[0] != "#") {
-        words.push(word);
-      }
-    }
-    return words.join(divider) + " ";
-  }
-
-  // Get random words from the list
-
-  for (let i = 0; i < count; i++) {
-    do {
-      word = list[Math.floor(Math.random() * list.length)];
-    } while (word.length <= 0 || word[0] == "#");
-    words.push(word);
-  }
-  return words.join(divider) + " ";
-}
 
 for (let i = 0; i < RUN_COUNT; i++) {
   var output = "";
