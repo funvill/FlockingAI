@@ -1,8 +1,25 @@
+# Great 
+Bird
 Owl
+Duck 
+
+# Testing 
+Lovebirds
+Cockatiels
 Peacock
-Penguin
-Puffin
 Hummingbird
-Bee-eaters
 Tucan
-Kiwi
+Penguin
+Atlantic Puffin
+
+# Hard to add variations to this type of bird 
+# Always looks like the same bird
+############### 
+# Crow        
+# Parrot
+# Bee-eaters  
+# Northern Cardinal
+
+# Never produces good results
+############### 
+# Kiwi bird

@@ -1,16 +1,4 @@
-# Andy Warhol
-# Claude Monet
-# Dean Russo
-# H.R. Giger
-# Hayao Myazaki
-# Jean-Michel Basquiat
-# Jackson Pollock
-# Jeff Koons
-# Leonardo da Vinci
-# Pablo Picasso
-# Vincent van Gogh
-# Weta Digital
-# Wētā FX
+
 
 # Andy Goldsworthy
 # Andy Maitland (iPad Artist)
@@ -280,11 +268,17 @@
 # Short list 
 ###### 
 
-Amiria Gale
-# Brice Marden
-# Chuck Close
 
-# Andreas Gursky
+
+# H.R. Giger
+# Jean-Michel Basquiat
+# Jackson Pollock
+# Jeff Koons
+# Leonardo da Vinci
+# Pablo Picasso
+# Vincent van Gogh
+
+
 # Bridget Riley
 # Cindy Sherman
 
@@ -302,6 +296,8 @@ Amiria Gale
 # Carl Warner
 # Beeple
 # Bisa Butler
+# Dean Russo
+# Weta FX
 
 # Great (4*)
 ###### 
@@ -314,6 +310,8 @@ Amiria Gale
 # Alberto Giacometti
 # Caspar David Friedrich
 # Charlie Bowater
+# Weta Digital
+
 
 # Good (3*)
 ###### 
@@ -323,6 +321,8 @@ Amiria Gale
 # Bob Byerley
 # Alma Thomas
 # Christo And Jeanne Claude
+# Amiria Gale
+# Chuck Close
 
 # Meh (1*)
 ###### 
@@ -355,3 +355,9 @@ Amiria Gale
 # Chris Ofili
 # Amedeo Modigliani
 # Brassai
+# Jules Verne
+# Brice Marden
+# Andreas Gursky
+# Andy Warhol
+# Claude Monet
+# Hayao Myazaki
