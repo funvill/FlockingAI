@@ -1,5 +1,3 @@
-
-
 # Andy Goldsworthy
 # Andy Maitland (iPad Artist)
 # Anish Kapoor
@@ -20,7 +18,9 @@
 # August Sander
 # Auguste Rodin
 # Augustus John
+# Bridget Riley
 # Bruce Nauman
+# Cindy Sherman
 # Claes Oldenburg
 # Clarice Cliff
 # Clyfford Still
@@ -44,7 +44,6 @@
 # Ed Ruscha
 # Edouard Manet
 # Edouard Vuillard
-# Eduardo Paolozzi
 # Edvard Munch
 # Edward Hopper
 # Edward Munch
@@ -60,13 +59,11 @@
 # Faith Ringgold
 # Felix Gonzalez-Torres
 # Fernand Leger
-# Fernando Botero
 # Fischli & Weiss
 # Francis Bacon
 # Francis Picabia
 # Frank Auerbach
 # Frank Frazetta
-# Frank Stella
 # Franz Kline
 # Frida Kahlo
 # Friedensreich Hundertwasser
@@ -85,7 +82,6 @@
 # Giuseppe Arcimboldo
 # Grayson Perry
 # Gustav Klimt
-# Hans Bellmer
 # Hans Hofmann
 # Hassan Mossoudy
 # Hazem Taha Hussein
@@ -99,7 +95,6 @@
 # Hieronymus Bosch
 # Hiroshi Sugimoto
 # Howard Hodgkin
-# Isa Genzken
 # Isamu Noguchi
 # Ismail Inceoglu
 # Ivan Shishkin
@@ -225,7 +220,6 @@
 # Rosalind Monks
 # Roy Lichtenstein
 # Roy Liechtestein
-# Salvador Dali
 # Salvador Dalí
 # Sarah Lucas
 # Sean Scully
@@ -235,40 +229,24 @@
 # Sonia Boyce
 # Sonia Delaunay
 # Stanley Spencer
-# Stephen Wiltshire
 # Stuart Davis
-# Takashi Murakami
-# Takashi Murakami 
-# Ted Harrison
 # Thomas Hart Benton
 # Tivadar Csontváry Kosztka
 # Tony Diterlizzi
 # Tracey Emin
 # Tyler Hobbs
 # Umberto Boccioni
-# Victto Ngai
-# Vince Low
+
 # Vladimir Tatlin
 # Walker Evans
 # Walter De Maria
-# Wanda Gág
 # Wangechi Mutu
 # Wassily Kandinsky
-# Weegee
 # Willem De Kooning
 # WLOP
-# Yaoy Kusama
 # Yayoi Kusama
 # Yoshitaka Amano
-# Yoshitomo Nara
 # Yves Klein
-# Zeng Fanzhi
-
-
-# Short list 
-###### 
-
-
 
 # H.R. Giger
 # Jean-Michel Basquiat
@@ -279,9 +257,6 @@
 # Vincent van Gogh
 
 
-# Bridget Riley
-# Cindy Sherman
-
 ###################################
 # Done 
 ###################################
@@ -290,26 +265,28 @@
 # Amazing (5*)
 ###### 
 # Albert Bierstadt
-# Frida Kahlo
-# Takashi Murakami
-# Caravaggio Michelangelo Merisi
-# Carl Warner
 # Beeple
 # Bisa Butler
+# Caravaggio Michelangelo Merisi
+# Carl Warner
 # Dean Russo
+# Frida Kahlo
+# Isa Genzken
+# Takashi Murakami
 # Weta FX
+# Zeng Fanzhi
 
 # Great (4*)
 ###### 
-# Tim Burton
-# Norman Rockwell
-# M. C. Escher
-# Jeff Koons
 # Ad Reinhardt
-# Carl Andre
 # Alberto Giacometti
+# Carl Andre
 # Caspar David Friedrich
 # Charlie Bowater
+# Jeff Koons
+# M. C. Escher
+# Norman Rockwell
+# Tim Burton
 # Weta Digital
 
 
@@ -318,46 +295,57 @@
 # Alexander Archipenko
 # Alexander Calder
 # Alfred Stieglitz
-# Bob Byerley
 # Alma Thomas
-# Christo And Jeanne Claude
 # Amiria Gale
+# Bob Byerley
+# Christo And Jeanne Claude
 # Chuck Close
+# Stephen Wiltshire
+# Wanda Gag
+# Vince Low
 
 # Meh (1*)
 ###### 
 # Agnes Lawrence Pelton
-# Jackson Pollock
-# Anish Kapoor
-# Banksy (Street Art)
-# Salvador Dali
-# Vincent van Gogh
-# Agnes Lawrence Pelton
-# Akihito Yoshida
-# Balthus
-# Camille Corot
-# Barbara Hepworth
 # Agnes Martin
-# Barnett Newman
+# Akihito Yoshida
 # Alberto Burri
-# Beatriz Milhazes
 # Alex Katz
-# Ben Enwonwu
-# Chaim Soutine
-# Ben Nicholson
-# Charles Demuth
 # Alexander Rodchenko
-# Bernd And Hilla Becher
-# Charles Rennie Mackintosh
-# Bill Brandt
 # Alighiero E Boetti
-# Chris Burden
-# Chris Ofili
 # Amedeo Modigliani
-# Brassai
-# Jules Verne
-# Brice Marden
 # Andreas Gursky
 # Andy Warhol
+# Anish Kapoor
+# Balthus
+# Banksy (Street Art)
+# Barbara Hepworth
+# Barnett Newman
+# Beatriz Milhazes
+# Ben Enwonwu
+# Ben Nicholson
+# Bernd And Hilla Becher
+# Bill Brandt
+# Brassai
+# Brice Marden
+# Camille Corot
+# Chaim Soutine
+# Charles Demuth
+# Charles Rennie Mackintosh
+# Chris Burden
+# Chris Ofili
 # Claude Monet
+# Eduardo Paolozzi
+# Fernando Botero
+# Frank Stella
+# Hans Bellmer
 # Hayao Myazaki
+# Jackson Pollock
+# Jules Verne
+# Salvador Dali
+# Ted Harrison
+# Victto Ngai
+# Vincent van Gogh
+# Yaoy Kusama
+# Yoshitomo Nara
+# Weegee
