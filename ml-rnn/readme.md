@@ -5,7 +5,7 @@
 
 ## Start bash in the container
 
-docker run --rm -v /mnt/c/dev/temp/birdnames:/root/torch-rnn/data/birdnames -ti crisbal/torch-rnn:base bash
+docker run --rm -v /mnt/c/dev/temp/birds:/root/torch-rnn/data/birds -ti crisbal/torch-rnn:base bash
 
 ## Preprocess the sample data
 
@@ -17,8 +17,8 @@ python scripts/preprocess.py \
 ## Train
 
 th train.lua \
--input_h5 data/birdnames/EveryBirdSpecies.h5 \
--input_json data/birdnames/EveryBirdSpecies.json \
+-input_h5 data/birds/EveryBirdSpecies.h5 \
+-input_json data/birds/EveryBirdSpecies.json \
 -checkpoint_name data/birdnames/cv \
 -gpu -1
 
