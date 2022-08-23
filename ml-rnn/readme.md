@@ -24,4 +24,4 @@ th train.lua \
 
 ## Create samples
 
-th sample.lua -checkpoint data/birdnames/cv_3350.t7 -length 2000 -gpu -1 
+th sample.lua -checkpoint data/birds/cv_21400.t7 -length 10000 -gpu -1 -temperature 0.1 >./data/birds/out_0.1.txt
