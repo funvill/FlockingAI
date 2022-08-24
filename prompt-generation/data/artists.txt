@@ -82,6 +82,7 @@
 # Giuseppe Arcimboldo
 # Grayson Perry
 # Gustav Klimt
+# H.R. Giger
 # Hans Hofmann
 # Hassan Mossoudy
 # Hazem Taha Hussein
@@ -99,6 +100,7 @@
 # Ismail Inceoglu
 # Ivan Shishkin
 # J. M. W. Turner
+# Jackson Pollock
 # Jacques-Henri Lartigue
 # James Ensor
 # James Rosenquist
@@ -108,6 +110,8 @@
 # Jean Arp
 # Jean Dubuffet
 # Jean Tinguely
+# Jean-Michel Basquiat
+# Jeff Koons
 # Jeff Wall
 # Jenny Saville
 # Joan Miro
@@ -142,6 +146,7 @@
 # Laurie Lipton
 # Lee Man Fong
 # Lemma Guya
+# Leonardo da Vinci
 # Lisa Congdon
 # Lisa Frank
 # Louise Bourgeois
@@ -178,12 +183,12 @@
 # Odilon Redon
 # Orla Kiely
 # Otto Dix
+# Pablo Picasso
 # Pak
 # Paolo Uccello
 # Paul Cezanne
 # Paul Gauguin
 # Paul Klee
-# Paul Klee# 
 # Paul Signac
 # Paula Rego
 # Pauline Haynes
@@ -195,37 +200,11 @@
 # Pierre Bonnard
 # Piet Mondrian
 # Pieter Bruegel
-# Pieter Bruegel The Elder
-# Pre-Raphaelite Brotherhood
-# Raffaello Sanzio
-# Ralph Steadman
-# Raymond Duchamp-Villon
-# Remedios Varo Uranga
-# Rene Magritte
-# Richard dadd
-# Richard Diebenkorn
-# Richard Hamilton
-# Richard Prince
-# Richard Serra
-# Robert Delaunay
-# Robert Frank
-# Robert Gober
-# Robert Mangold
-# Robert Morris
-# Robert Motherwell
-# Robert Rauschenberg
-# Robert Ryman
-# Robert Smithson
-# Romero Britto
-# Rosalind Monks
-# Roy Lichtenstein
-# Roy Liechtestein
 # Salvador Dalí
 # Sarah Lucas
 # Sean Scully
 # Shepard Fairey
 # Sigmar Polke
-# Sol LeWitt
 # Sonia Boyce
 # Sonia Delaunay
 # Stanley Spencer
@@ -233,28 +212,13 @@
 # Thomas Hart Benton
 # Tivadar Csontváry Kosztka
 # Tony Diterlizzi
-# Tracey Emin
 # Tyler Hobbs
 # Umberto Boccioni
-
-# Vladimir Tatlin
-# Walker Evans
 # Walter De Maria
 # Wangechi Mutu
 # Wassily Kandinsky
-# Willem De Kooning
 # WLOP
 # Yayoi Kusama
-# Yoshitaka Amano
-# Yves Klein
-
-# H.R. Giger
-# Jean-Michel Basquiat
-# Jackson Pollock
-# Jeff Koons
-# Leonardo da Vinci
-# Pablo Picasso
-# Vincent van Gogh
 
 
 ###################################
@@ -275,6 +239,9 @@
 # Takashi Murakami
 # Weta FX
 # Zeng Fanzhi
+# Yoshitaka Amano
+# Ralph Steadman
+# Raphaelite Brotherhood
 
 # Great (4*)
 ###### 
@@ -288,6 +255,9 @@
 # Norman Rockwell
 # Tim Burton
 # Weta Digital
+# Richard dadd
+# Remedios Varo Uranga
+# Raffaello Sanzio
 
 
 # Good (3*)
@@ -303,6 +273,13 @@
 # Stephen Wiltshire
 # Wanda Gag
 # Vince Low
+# Robert Morris
+
+# Got something but still not great (2*)
+###### 
+# Vladimir Tatlin
+# Robert Smithson
+# Robert Ryman
 
 # Meh (1*)
 ###### 
@@ -349,3 +326,23 @@
 # Yaoy Kusama
 # Yoshitomo Nara
 # Weegee
+# Yves Klein
+# Willem De Kooning
+# Walker Evans
+# Sol LeWitt
+# Tracey Emin
+# Robert Frank
+# Robert Gober
+# Robert Delaunay
+# Robert Mangold
+# Robert Motherwell
+# Robert Rauschenberg
+# Richard Diebenkorn
+# Richard Hamilton
+# Romero Britto
+# Rosalind Monks
+# Roy Lichtenstein
+# Raymond Duchamp-Villon
+# Rene Magritte
+# Richard Prince
+# Richard Serra

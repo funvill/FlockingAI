@@ -1,2 +1,2 @@
---uplight
---quality 0.5
+# --uplight
+# --quality 0.5

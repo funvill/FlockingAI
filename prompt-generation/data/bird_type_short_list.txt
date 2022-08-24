@@ -1,8 +1,6 @@
 # Great 
 Bird
 Owl
-Duck 
-Vulture
 
 # Testing 
 Lovebirds
@@ -20,6 +18,8 @@ Atlantic Puffin
 # Parrot
 # Bee-eaters  
 # Northern Cardinal
+# Duck 
+# Vulture
 
 # Never produces good results
 ############### 
