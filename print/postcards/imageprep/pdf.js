@@ -17,22 +17,11 @@ var fonts = {
 var printer = new PdfPrinter(fonts);
 
 const sourceFolderPath = "../images/processed";
-const destinationFolderPath = "../images/done";
+const destinationFolderPath = "../";
 
 const outputFileSizeX = 6.25; // inches, The size of the image in the output file
 const outputFileSizeY = 4.25; // inches, The size of the image in the output file
 const pixelsPerInch = 300; // Pixles
-
-// Create the directory if it doesn't exist
-if (!fs.existsSync(destinationFolderPath)) {
-  fs.mkdirSync(destinationFolderPath);
-}
-// Remove all the files in the output folder
-var files = fs.readdirSync(destinationFolderPath);
-files.forEach(function (file, index) {
-  var curPath = destinationFolderPath + "/" + file;
-  fs.unlinkSync(curPath);
-});
 
 // Get the list of files in the folder
 var walkSync = function (dir, filelist) {
@@ -87,7 +76,6 @@ var docDefinition = {
 };
 
 const outputPDFFile = path.join(destinationFolderPath, "done.pdf");
-
 console.log("outputPDFFile: " + outputPDFFile);
 
 var pdfDoc = printer.createPdfKitDocument(docDefinition);
