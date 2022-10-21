@@ -3,7 +3,7 @@ aesthetic
 freedom
 Countless opal petals radiating from the center
 translucent shells
-circus 
+circus
 
 # Bird specific 
 wings
@@ -24,6 +24,7 @@ bearded
 conebill
 small beak
 glowing eyes
+big expressive eyes
 
 # Artists 
 by Alex Grey

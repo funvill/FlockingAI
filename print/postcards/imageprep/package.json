@@ -1,0 +1,19 @@
+{
+  "name": "imageprep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imageprep": "node imageprep.js",
+    "pdf": "node pdf.js",
+    "start": "npm run imageprep && npm run pdf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfmake": "^0.2.6",
+    "sharp": "^0.31.1"
+  }
+}

@@ -35,11 +35,11 @@ for (let i = 0; i < RUN_COUNT; i++) {
   output += GetWordsFromList(LoadTextFile("parameters.txt"), undefined, " ");
 
   // Randomly choose the orintation of the image (vertical or horizontal)
-  if (Math.floor(Math.random() * 2) == 0) {
-    output += " --ar 3:2"; // Vertical
-  } else {
-    output += " --ar 2:3"; // Horizontal
-  }
+  // if (Math.floor(Math.random() * 2) == 0) {
+  //   output += " --ar 3:2"; // Vertical
+  // } else {
+  //   output += " --ar 2:3"; // Horizontal
+  // }
 
   console.log(output + "\n");
 }

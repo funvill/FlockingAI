@@ -3,13 +3,13 @@ Bird
 Owl
 
 # Testing 
-Lovebirds
-Cockatiels
-Peacock
-Hummingbird
-Tucan
-Penguin
-Atlantic Puffin
+# Lovebirds
+# Cockatiels
+# Peacock
+# Hummingbird
+# Tucan
+# Penguin
+# Atlantic Puffin
 
 # Hard to add variations to this type of bird 
 # Always looks like the same bird

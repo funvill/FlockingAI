@@ -2,3 +2,5 @@
 gallery/
 data_harvest/
 
+node_modules
+print/postcards/images/

@@ -82,7 +82,6 @@
 # Giuseppe Arcimboldo
 # Grayson Perry
 # Gustav Klimt
-# H.R. Giger
 # Hans Hofmann
 # Hassan Mossoudy
 # Hazem Taha Hussein
@@ -183,6 +182,7 @@
 # Odilon Redon
 # Orla Kiely
 # Otto Dix
+# WLOP
 # Pablo Picasso
 # Pak
 # Paolo Uccello
@@ -191,34 +191,7 @@
 # Paul Klee
 # Paul Signac
 # Paula Rego
-# Pauline Haynes
-# Pebble Tay
-# Peter Doig
-# Philip Guston
-# Piero Manzoni
-# Pierre Auguste Renoir
-# Pierre Bonnard
-# Piet Mondrian
-# Pieter Bruegel
-# Salvador Dalí
-# Sarah Lucas
-# Sean Scully
-# Shepard Fairey
-# Sigmar Polke
-# Sonia Boyce
-# Sonia Delaunay
-# Stanley Spencer
-# Stuart Davis
-# Thomas Hart Benton
-# Tivadar Csontváry Kosztka
-# Tony Diterlizzi
-# Tyler Hobbs
-# Umberto Boccioni
-# Walter De Maria
-# Wangechi Mutu
-# Wassily Kandinsky
-# WLOP
-# Yayoi Kusama
+
 
 
 ###################################
@@ -227,7 +200,7 @@
 
 
 # Amazing (5*)
-###### 
+################################### 
 # Albert Bierstadt
 # Beeple
 # Bisa Butler
@@ -243,8 +216,9 @@
 # Ralph Steadman
 # Raphaelite Brotherhood
 
+
 # Great (4*)
-###### 
+################################### 
 # Ad Reinhardt
 # Alberto Giacometti
 # Carl Andre
@@ -258,10 +232,13 @@
 # Richard dadd
 # Remedios Varo Uranga
 # Raffaello Sanzio
+# Yayoi Kusama
+# Tony Diterlizzi
+# Sonia Boyce
 
 
 # Good (3*)
-###### 
+################################### 
 # Alexander Archipenko
 # Alexander Calder
 # Alfred Stieglitz
@@ -274,15 +251,22 @@
 # Wanda Gag
 # Vince Low
 # Robert Morris
+# Stanley Spencer
+
 
 # Got something but still not great (2*)
-###### 
+################################### 
 # Vladimir Tatlin
 # Robert Smithson
 # Robert Ryman
+# Wangechi Mutu
+# Umberto Boccioni
+# Tyler Hobbs
+# Tivadar Csontvary Kosztka
+# Sarah Lucas
 
 # Meh (1*)
-###### 
+################################### 
 # Agnes Lawrence Pelton
 # Agnes Martin
 # Akihito Yoshida
@@ -346,3 +330,21 @@
 # Rene Magritte
 # Richard Prince
 # Richard Serra
+# Darick Robertson
+# Wassily Kandinsky
+# Walter De Maria
+# Thomas Hart Benton
+# Stuart Davis
+# Sonia Delaunay
+# Shepard Fairey
+# Sigmar Polke
+# Sean Scully
+# Pieter Bruegel
+# Piet Mondrian
+# Pierre Auguste Renoir
+# Pierre Bonnard
+# Philip Guston
+# Piero Manzoni
+# Pauline Haynes
+# Pebble Tay
+# Peter Doig
