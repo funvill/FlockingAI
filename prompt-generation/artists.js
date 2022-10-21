@@ -8,7 +8,7 @@ let output = "";
 
 artists.forEach((artistsStyle) => {
   birdTypes.forEach((bird) => {
-    output += artistsStyle + " style of a cute " + bird + " ";
+    output += artistsStyle + " style of a cute " + bird + " :: cute Bird ";
     parameters.forEach((parm) => {
       output += parm + " ";
     });
