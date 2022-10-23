@@ -1,12 +1,11 @@
 {
-  "name": "imageprep",
-  "version": "1.0.3",
-  "description": "",
-  "main": "imageprep.js",
+  "name": "buttons",
+  "version": "1.0.0",
+  "main": "buttons.js",
   "scripts": {
-    "imageprep": "node imageprep.js",
+    "img": "node buttons.js",
     "pdf": "node pdf.js",
-    "start": "npm run imageprep && npm run pdf",
+    "start": "npm run img && npm run pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +14,6 @@
   "dependencies": {
     "pdfmake": "^0.2.6",
     "sharp": "^0.31.1"
-  }
+  },
+  "description": ""
 }

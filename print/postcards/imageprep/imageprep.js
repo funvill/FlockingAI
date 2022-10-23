@@ -6,8 +6,8 @@ var path = require("path");
 const sharp = require("sharp");
 
 // Consts
-const sourceFolderPath = "../images";
-const destinationFolderPath = "../images/processed";
+const sourceFolderPath = "../../images";
+const destinationFolderPath = "../processed";
 
 const pixelsPerInch = 300; // Pixles
 const outputImageSizeXY = 3.75; // inches, The size of the photo

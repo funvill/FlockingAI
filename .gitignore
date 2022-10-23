@@ -3,7 +3,8 @@ gallery/
 data_harvest/
 
 node_modules
-print/postcards/images/
-print/postcards/done/done.pdf
-print/postcards/*FlockingAI-StevenSmethurst_v*
+print/images/
+print/buttons/processed/
+print/postcards/processed/
+print/*FlockingAI-StevenSmethurst_*
 

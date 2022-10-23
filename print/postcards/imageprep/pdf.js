@@ -13,8 +13,8 @@ var fonts = {
 
 var printer = new PdfPrinter(fonts);
 
-const sourceFolderPath = "../images/processed";
-const destinationFolderPath = "../";
+const sourceFolderPath = "../processed";
+const destinationFolderPath = "../../";
 
 const outputFileSizeX = 6.25; // inches, The size of the image in the output file
 const outputFileSizeY = 4.25; // inches, The size of the image in the output file
@@ -31,7 +31,7 @@ console.log("Pixels per inch:     " + pixelsPerInch);
 console.log("Output file size:    " + outputFileSizeX + " x " + outputFileSizeY + " inches (" + Math.round(outputFileSizeX * pixelsPerInch) + " x " + Math.round(outputFileSizeY * pixelsPerInch) + " pixels)");
 
 // Output file name
-const outputPDFFile = path.join(destinationFolderPath, "FlockingAI-StevenSmethurst_v" + require("./package.json").version + ".pdf");
+const outputPDFFile = path.join(destinationFolderPath, "FlockingAI-StevenSmethurst_postcards_v" + require("./package.json").version + ".pdf");
 console.log("outputPDFFile:       " + outputPDFFile);
 
 const postCardAddressPath = path.join("../", "postcard-address.png");
