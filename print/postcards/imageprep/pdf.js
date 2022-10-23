@@ -34,7 +34,7 @@ console.log("Output file size:    " + outputFileSizeX + " x " + outputFileSizeY 
 const outputPDFFile = path.join(destinationFolderPath, "FlockingAI-StevenSmethurst_v" + require("./package.json").version + ".pdf");
 console.log("outputPDFFile:       " + outputPDFFile);
 
-const postCardAddressPath = path.join("../", "poastcard-address.png");
+const postCardAddressPath = path.join("../", "postcard-address.png");
 console.log("postCardAddressPath: " + postCardAddressPath);
 
 
@@ -62,7 +62,7 @@ const toTitleCase = (str) => {
 
 // Extract the name of the bird from the file name
 const getBirdName = (fileName) => {
-  return "#" + toTitleCase(fileName.replace("done_", "").replace(".png", "").replace("-", " "));
+  return "#" + toTitleCase(fileName.replace("done_", "").replace(".png", "").replace("-", " ").replace("-", " "));
 };
 
 // Get the list of all the images in the source folder. 
