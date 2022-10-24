@@ -23,12 +23,13 @@ const birdNameFontSize = 6;
 const birdNameCenterX = 382;
 const birdNameCenterY = 95;
 
-
 console.log("Image PDF " + require("./package.json").version);
 console.log("Source folder:       " + sourceFolderPath);
 console.log("Destination folder:  " + destinationFolderPath);
 console.log("Pixels per inch:     " + pixelsPerInch);
-console.log("Output file size:    " + outputFileSizeX + " x " + outputFileSizeY + " inches (" + Math.round(outputFileSizeX * pixelsPerInch) + " x " + Math.round(outputFileSizeY * pixelsPerInch) + " pixels)");
+console.log(
+  "Output file size:    " + outputFileSizeX + " x " + outputFileSizeY + " inches (" + Math.round(outputFileSizeX * pixelsPerInch) + " x " + Math.round(outputFileSizeY * pixelsPerInch) + " pixels)"
+);
 
 // Output file name
 const outputPDFFile = path.join(destinationFolderPath, "FlockingAI-StevenSmethurst_postcards_v" + require("./package.json").version + ".pdf");
@@ -37,21 +38,17 @@ console.log("outputPDFFile:       " + outputPDFFile);
 const postCardAddressPath = path.join("../", "postcard-address.png");
 console.log("postCardAddressPath: " + postCardAddressPath);
 
-
 // Get the list of files in the folder
 var walkSync = function (dir, filelist) {
   var files = fs.readdirSync(dir);
   filelist = filelist || [];
   files.forEach(function (file) {
-    if (fs.statSync(path.join(dir, file)).isDirectory()) {
-      filelist = walkSync(path.join(dir, file), filelist);
-    } else {
+    if (!fs.statSync(path.join(dir, file)).isDirectory()) {
       filelist.push(file);
     }
   });
   return filelist;
 };
-
 
 // Change text to capital case
 const toTitleCase = (str) => {
@@ -62,10 +59,10 @@ const toTitleCase = (str) => {
 
 // Extract the name of the bird from the file name
 const getBirdName = (fileName) => {
-  return "#" + toTitleCase(fileName.replace("done_", "").replace(".png", "").replace("-", " ").replace("-", " "));
+  return "#" + toTitleCase(fileName.replace("postcard_", "").replace(".png", "").replace("-", " ").replace("-", " "));
 };
 
-// Get the list of all the images in the source folder. 
+// Get the list of all the images in the source folder.
 const sourceFilesList = walkSync(sourceFolderPath);
 
 // Get the addres card

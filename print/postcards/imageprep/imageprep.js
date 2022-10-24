@@ -8,9 +8,10 @@ const sharp = require("sharp");
 // Consts
 const sourceFolderPath = "../../images";
 const destinationFolderPath = "../processed";
+const resizedDestinationFolderPath = "../processed/resized";
 
 const pixelsPerInch = 300; // Pixles
-const outputImageSizeXY = 3.75; // inches, The size of the photo
+const outputImageSizeXY = 3.5; // inches, The size of the photo
 const outputFileSizeX = 6.25; // inches, The size of the image in the output file
 const outputFileSizeY = 4.25; // inches, The size of the image in the output file
 const outputBorderSize = 1 / 16; // inches, The size of the border around the image in the output file
@@ -20,14 +21,16 @@ const outputFileBackgroundColor = "white";
 
 /**
  *
- *    *-----------------------------------*
- *    |                                   |
- *    |   *---------------------------*   |
- *    |   |                           |   |
- *    |   |                           |   |
- *    |   |                           |   |
- *    |   |                           |   |
- *    |   *---------------------------*   |
+ *    *-----------------------------------*  <== Output file size 6.25 x 4.25 inches
+ *    |                                   |  <== White space 
+ *    |     *-----------------------*     |  <== Border 
+ *    |     |*---------------------*|     |
+ *    |     ||                     ||     |
+ *    |     ||     Art Image       ||     |
+ *    |     ||       (3.5)         ||     |
+ *    |     ||                     ||     |
+ *    |     |*---------------------*|     |
+ *    |     *-----------------------*     |
  *    |                                   |
  *    *-----------------------------------*
  */
@@ -37,9 +40,7 @@ var walkSync = function (dir, filelist) {
   var files = fs.readdirSync(dir);
   filelist = filelist || [];
   files.forEach(function (file) {
-    if (fs.statSync(path.join(dir, file)).isDirectory()) {
-      filelist = walkSync(path.join(dir, file), filelist);
-    } else {
+    if (!fs.statSync(path.join(dir, file)).isDirectory()) {
       filelist.push(file);
     }
   });
@@ -50,34 +51,40 @@ var walkSync = function (dir, filelist) {
 // Print the application version
 console.log("Image Processing Application version " + require("./package.json").version);
 console.log("Source folder:      " + sourceFolderPath);
+console.log("Resize folder:      " + resizedDestinationFolderPath);
 console.log("Destination folder: " + destinationFolderPath);
 console.log("Pixels per inch:    " + pixelsPerInch);
-console.log("Output image size:  " + outputImageSizeXY + " inches");
+console.log("Output image size:  " + outputImageSizeXY + " inches, " + Math.round(outputImageSizeXY * pixelsPerInch) + " pixels");
 console.log("Output border size: " + outputBorderSize + " inches, " + outputBorderSizePixels + " pixels");
+console.log("Image + border size: " + (outputImageSizeXY + outputBorderSize * 2) + " inches, " + Math.round((outputImageSizeXY + outputBorderSize * 2) * pixelsPerInch) + " pixels"); 
 console.log(
   "Output file size:   " + outputFileSizeX + " x " + outputFileSizeY + " inches (" + Math.round(outputFileSizeX * pixelsPerInch) + " x " + Math.round(outputFileSizeY * pixelsPerInch) + " pixels)"
 );
 console.log("Output border color:" + outputBorderColor);
 console.log("Output file background color:" + outputFileBackgroundColor);
 
-// Create the directory if it doesn't exist
-if (!fs.existsSync(destinationFolderPath)) {
-  fs.mkdirSync(destinationFolderPath);
+function CreateAndEmptyFolder(folderPath) {
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath);
+  } else {
+    fs.readdirSync(folderPath).forEach(function (file, index) {
+      var curPath = path.join(folderPath, file);
+      if (!fs.statSync(curPath).isDirectory()) {
+        fs.unlinkSync(curPath);
+      }
+    });
+  }
 }
 
-// Remove all the files in the output folder
-var files = fs.readdirSync(destinationFolderPath);
-files.forEach(function (file, index) {
-  var curPath = destinationFolderPath + "/" + file;
-  fs.unlinkSync(curPath);
-});
+CreateAndEmptyFolder(resizedDestinationFolderPath);
+CreateAndEmptyFolder(destinationFolderPath);
 
 // Get the list of files in the folder
 walkSync(sourceFolderPath, []).forEach(function (file) {
   // files
   const sourceFile = path.join(sourceFolderPath, file);
-  const destinationResizeFile = path.join(destinationFolderPath, "resized_" + file);
-  const outputImageFile = path.join(destinationFolderPath, "done_" + file);
+  const destinationResizeFile = path.join(resizedDestinationFolderPath, "resized_" + file);
+  const outputImageFile = path.join(destinationFolderPath, "postcard_" + file);
 
   // Debug info
   console.log("Processing file: " + sourceFile + " => " + outputImageFile);
@@ -108,10 +115,10 @@ walkSync(sourceFolderPath, []).forEach(function (file) {
         // Add a white background to extend the image, and extend the image to the output file size
         return image
           .extend({
-            top: Math.round(outputFileSizeY * pixelsPerInch - metadata.height) / 2,
-            bottom: Math.round(outputFileSizeY * pixelsPerInch - metadata.height) / 2,
-            left: Math.round(outputFileSizeX * pixelsPerInch - metadata.width) / 2,
-            right: Math.round(outputFileSizeX * pixelsPerInch - metadata.width) / 2,
+            top: Math.round((outputFileSizeY * pixelsPerInch - metadata.height) / 2),
+            bottom: Math.round((outputFileSizeY * pixelsPerInch - metadata.height) / 2),
+            left: Math.round((outputFileSizeX * pixelsPerInch - metadata.width) / 2),
+            right: Math.round((outputFileSizeX * pixelsPerInch - metadata.width) / 2),
             background: outputFileBackgroundColor,
           })
           .toFile(outputImageFile, function (err) {
@@ -120,7 +127,7 @@ walkSync(sourceFolderPath, []).forEach(function (file) {
               return;
             }
             // Delete the temporary file
-            fs.unlinkSync(destinationResizeFile);
+            // fs.unlinkSync(destinationResizeFile);
             console.log("Deleted temporary file: " + destinationResizeFile);
 
             // Done
