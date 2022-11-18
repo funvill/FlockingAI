@@ -66,7 +66,8 @@ for (var i = 0; i < sourceFilesList.length; i++) {
 // Convert the images array into a content columns for pdfmake
 var spacing = " ";
 var content = [];
-content.push({ text: "Flocking AI Buttons v" + require("./package.json").version, style: "header" });
+content.push({ text: "Flocking AI Buttons  v" + require("./package.json").version, style: "header" });
+content.push({ text: "pageSize = A4, outputImageSizeDiameter = 1.25, outputFileSizeDiameter = 1.75" });
 content.push({ text: spacing });
 for (var i = 0; i < images.length; i += 3) {
   content.push({
@@ -80,7 +81,7 @@ var docDefinition = {
   pageSize: "A4",
 
   // [left, top, right, bottom] or [horizontal, vertical] or just a number for equal margins  
-  pageMargins: [ 40, 60, 40, 60 ],
+  pageMargins: [ 30, 30, 30, 30 ],
 
   // by default we use portrait, you can change it to landscape if you wish
   pageOrientation: "portrait",
@@ -91,7 +92,7 @@ var docDefinition = {
   },
 
   defaultStyle: {
-    fontSize: 16,
+    fontSize: 14,
     font: "default",
     align: "center",
     color: "gray",

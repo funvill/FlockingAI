@@ -10,13 +10,14 @@ const sourceFolderPath = "../images";
 const destinationFolderPath = "./processed";
 // overlay_print.png does not have the blead lines. 
 // overlay_draft.png has the blead lines and cut lines
-const overlayFile = "overlay_print.png"; 
+// const overlayFile = "overlay_print.png"; 
+const overlayFile = "overlay_draft.png"; 
 
 const pixelsPerInch = 300; // Pixles
-const outputImageSizeDiameter = 1.25; // inches, The size of the photo
+const outputImageSizeDiameter = 1.25 + 0.10; // inches, The size of the photo
 const outputFileSizeDiameter = 1.75; // inches, The size of the image in the output file
 const outputBorderSizePixels = Math.round(((outputFileSizeDiameter - outputImageSizeDiameter) * pixelsPerInch) / 2); // pixels, The size of the border around the image in the output file
-const outputBorderColor = "white"; // The color of the border around the image in the output file
+const outputBorderColor = "black"; // The color of the border around the image in the output file
 
 // Get the list of files in the folder
 var walkSync = function (dir, filelist) {
